@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cluedo notebook</title>
+<style>
+.kolona {     padding: 20px;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    width: 30%;
+    margin: 10px auto;
+    border-radius: 2em;
+    border: 1px solid gray;}
+.kolona > input { border: 1px solid black; padding: 5px;text-align: center;margin: 2px; }
+.kolona > input:visited {background-color: red;}
+.kolona > label {font-size: 20px;}
+.kolona > h3 {text-align: center;}
+#kluedo-notes {
+        display: block;
+    margin: auto;
+    border: double 2px black;}
+	body {background-image: url(https://m.media-amazon.com/images/I/91-WJkhO4iL._AC_SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+	h1 {text-align: center; text-transform: uppercase;background-color: rgb(255,255,255,0.6);}
+</style>
+</head>
+<body>
+
+<div id="kluedo-notes">
+<h1>Kluedo Beleznica</h1>
+<div class="kolona"><h3>Ubica</h3><input type="checkbox" value="Yellow"><label>Yellow</label><br/><input type="checkbox" value="Red"><label>Red</label><br/><input type="checkbox" value="Blue"><label>Blue</label><br/><input type="checkbox" value="White"><label>White</label><br/><input type="checkbox" value="Black"><label>Black</label><br/><input type="checkbox" value="Green"><label>Green</label><br/></div>
+
+<div class="kolona"><h3>Oruzje</h3><input type="checkbox" value="Pistolj"><label>Pistolj</label><br/><input type="checkbox" value="Noz"><label>Noz</label><br/><input type="checkbox" value="Konopac"><label>Konopac</label><br/><input type="checkbox" value="Svecnjak"><label>Svecnjak</label><br/><input type="checkbox" value="Kljuc"><label>Kljuc</label><br/><input type="checkbox" value="Sipka"><label>Sipka</label><br/></div>
+<div class="kolona"><h3>Prostorija</h3><input type="checkbox" value="Kabinet"><label>Kabinet</label><br/><input type="checkbox" value="Hol"><label>Hol</label><br/><input type="checkbox" value="Biblioteka"><label>Biblioteka</label><br/><input type="checkbox" value="Bilijar Sala"><label>Bilijar Sala</label><br/><input type="checkbox" value="Studio"><label>Studio</label><br/><input type="checkbox" value="Spavaca Soba"><label>Spavaca Soba</label><br/><input type="checkbox" value="Kuhinja"><label>Kuhinja</label><br/><input type="checkbox" value="Trpezarija"><label>Trpezarija</label><br/><input type="checkbox" value="Salon"><label>Salon</label><br/></div>
+</div>
+
+
+</body>
+</html>
